@@ -7,5 +7,5 @@ RUN echo 'Hi, I am in your container' \
     >/usr/share/nginx/html/index.html
 # Add my comment here
 CMD [ "nginx", "-g", "daemon off;" ]
-
+# Add another comment here to force 2nd build
 EXPOSE 80
